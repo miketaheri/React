@@ -14,7 +14,7 @@ const NavBar: FC = () => {
     <nav>
       <div className="wrapped">
         <img className="img" src={Logo} alt="logo" />
-        <button className="category">Categories</button>
+        <button className="category">Categoriesss</button>
         <div className="search-box">
           <FaSearch className="search-icon" />
           <input className="input" type="text" placeholder="SEARCH" />
