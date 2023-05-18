@@ -1,0 +1,101 @@
+
+
+.img{
+    width: 353px;
+    height: 160px;
+    left: 56px;
+    top: 11px;
+}
+
+.category{
+    box-sizing: border-box;
+
+    background: #EFF3F6;
+    border: 1px solid #2409CA;
+    border-radius: 120px;
+}
+
+.input{
+    box-sizing: border-box;
+    
+    background: #EFF3F6;
+    border: 1px solid #2409CA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 120px;
+    width: 400px;
+    
+}
+
+.login{
+    width: 80px;
+    height: 29px;
+    left: 1410px;
+    top: 75px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: 0;
+  
+    color: #0446F1;
+    
+}
+
+.signup{
+    width: 80px;
+    height: 29px;
+    left: 1410px;
+    top: 75px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: 0;
+  
+    color: #0446F1;
+}
+
+/* Set navbar to the top of the page */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* replace with your preferred color */
+    z-index: 10; /* Ensure the navbar is on top of other elements */
+  }
+  
+  /* Style the wrapper */
+  .wrapped {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .search-box {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 5px;  /* adjust as needed */
+    left: 10px; /* adjust as needed */
+    color: rgba(4, 70, 241, 0.42);
+  }
+  
+  .input {
+    padding-left: 30px; /* Adjust this value depending on the size of the icon */
+  }
+
+  .input::placeholder {
+    color: #2409CA; /* replace with your preferred color */
+    opacity: 1; /* needed to override browser's default opacity */
+  }
+
+  .input:focus {
+    outline: none;
+  }
